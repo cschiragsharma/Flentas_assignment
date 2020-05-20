@@ -53,7 +53,7 @@ public class minimum_cost {
         String str_data = "";
         int i =1;
         try {
-             BufferedReader br = new BufferedReader(new FileReader("C:/Users/Chirag/Desktop/New folder/Flentas_coding_assignment/src/input.txt"));             
+             BufferedReader br = new BufferedReader(new FileReader("input.txt"));             
              String noOfTestCases = br.readLine();
              for( i=1;i<=Integer.parseInt(noOfTestCases);i++)  //typecasted Stringto int
              {
