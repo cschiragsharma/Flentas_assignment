@@ -62,27 +62,12 @@ public class minimum_cost {
             	 long [] numArr = Stream.of(a.split(" ")).mapToLong(Integer::parseInt).toArray();
             	 System.out.println(minimumCost(numArr, n));
              }
-             
-             while (strLine != null)
-             {
-                if (strLine == null)
-                  break;
-                str_data = strLine;
-                strLine = br.readLine();
-                System.out.println(str_data);
-             }
-            
              br.close();
             }catch (FileNotFoundException e) {
                 System.err.println("File not found");
             } catch (IOException e) {
                 System.err.println("Unable to read the file.");
             }
-        
-		long price[] = { 600,800,150,700 }; 
-        int n = price.length; 
-      
-        
 	}
 
 }
